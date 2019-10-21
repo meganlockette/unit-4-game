@@ -54,7 +54,7 @@ $(document).ready(function() {
         $("#image4").html("<img src=" + "assets/images/pic4.png" + " value=" + crystalFour + ">");
         
 
-        $("img").on("click", function () {
+        $(".img").on("click", function () {
 			var newScore = score += parseInt($(this).attr("value")); 
 				console.log("New Score: " + newScore); 
 			$(".scoreDisplay").html(newScore); 
@@ -81,7 +81,7 @@ $(document).ready(function() {
 
     }
 
-    $("img").on("click", function () {
+    $(".img").on("click", function () {
 		var newScore = score += parseInt($(this).attr("value")); 
 			console.log("New Score: " + newScore); 
 		$(".scoreDisplay").html(newScore); 
